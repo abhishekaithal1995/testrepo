@@ -13,6 +13,7 @@ pool:
 
 
 steps:
+- task: UiPathInstallPlatform-preview@2
 
 - task: UiPathPack@2
   inputs:
