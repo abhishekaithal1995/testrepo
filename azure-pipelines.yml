@@ -21,7 +21,7 @@ steps:
 - task: UiPathPack@2
   inputs:
     versionType: 'AutoVersion'
-    projectJsonPath: 'testrepo/BlankProcess1/'
+    projectJsonPath: 'BlankProcess1/project.json'
     outputType: 'Process'
     orchestratorConnection: 'Uipathtest'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
